@@ -15,7 +15,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/analysis")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://dokumenti.sk")
 public class AnalysisController {
 
     private final AnalysisRepository repository;

@@ -16,7 +16,7 @@ import java.nio.charset.StandardCharsets;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://dokumenti.sk")
 public class DocumentController {
 
     private final DocumentService documentService;
